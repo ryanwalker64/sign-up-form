@@ -33,7 +33,7 @@
                 <br>
                 You know you want to.
             </p>
-            <form>
+            <form method="post" onsubmit="return comparePwd()">
                 <div class="wrapper--form">
                     <h2>Let's do this!</h2>
                     <div class="grid--form">
@@ -60,6 +60,7 @@
                         <fieldset>
                             <label for="password">Password</label>
                             <input type="password" id="password" required />
+                            <span id="matchPasswords"></span>
                         </fieldset>
 
                         <fieldset>
@@ -68,7 +69,7 @@
                         </fieldset>
                     </div>
                 </div>
-                <button type="button">Create Account</button>
+                <button type="submit">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </form>
         </div>

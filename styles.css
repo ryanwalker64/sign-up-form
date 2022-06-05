@@ -185,13 +185,13 @@ main {
     font-size: 24px;
     font-weight: 500;
     /* margin-bottom: 50px; */
-    margin: 0 40px 50px 40px;
+    margin: 0 80px 50px 40px;
 }
 
 .wrapper--form {
     background-color: white;
     box-shadow: 1px 10px 19px -4px rgba(0, 0, 0, 0.41);
-    padding: 20px 200px 20px 40px;
+    padding: 40px 200px 40px 40px;
 }
 
 h2 {
@@ -237,4 +237,23 @@ input {
 input:focus {
     box-shadow: 1px 5px 9px -4px rgba(0, 0, 0, 0.195);
 
+}
+
+
+button {
+    margin: 40px;
+    background: #596D48;
+    color: white;
+    border-radius: 5px;
+    /* box-shadow: none; */
+    border: none;
+    padding: 10px 40px;
+    box-shadow: 1px 5px 9px -4px rgba(0, 0, 0, 0.195);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+form>p {
+    margin-left: 40px;
+    color: #333;
 }
